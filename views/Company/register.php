@@ -81,7 +81,7 @@ $_SESSION['resposta_antispam'] = $pergunta_atual['resposta'];
                 </div>
                 <div>
                     <label for="nome_completo" class="block text-gray-700 text-sm font-bold mb-2 transition-transform duration-300 ease-in-out">Nome Completo</label>
-                    <input type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu nome completo" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                    <input type="text" id="nome_completo" name="nome_completo" placeholder="DIGITE SEU NOME COMPLETO" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500 uppercase" style="text-transform: uppercase;">
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -206,8 +206,16 @@ $_SESSION['resposta_antispam'] = $pergunta_atual['resposta'];
         document.addEventListener('DOMContentLoaded', () => {
             const cpfInput = document.getElementById('cpf');
             const telefoneInput = document.getElementById('telefone');
+            const nomeCompletoInput = document.getElementById('nome_completo');
             const termosModalTrigger = document.getElementById('termosModalTrigger');
             const termosModal = document.getElementById('termosModal');
+
+            // Converter nome para maiúsculas
+            if (nomeCompletoInput) {
+                nomeCompletoInput.addEventListener('input', (e) => {
+                    e.target.value = e.target.value.toUpperCase();
+                });
+            }
 
             if (cpfInput) {
                 cpfInput.addEventListener('input', (e) => {
