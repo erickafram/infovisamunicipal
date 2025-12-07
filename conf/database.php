@@ -1,8 +1,8 @@
 ﻿<?php
 $servername = "localhost";
-$username = "semus";
-$password = "Semus@#2125/";
-$dbname = "infovisa";
+$username = "root";
+$password = "";
+$dbname = "infovisagurupi";
 
 // Cria a conexão
 

@@ -26,20 +26,6 @@ if (isset($_SESSION['success_message'])) {
         body {
             font-family: 'Poppins', sans-serif;
         }
-        .loading-spinner {
-            display: none;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #f3f3f3;
-            border-top: 2px solid #3498db;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-left: 10px;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
 
@@ -69,15 +55,11 @@ if (isset($_SESSION['success_message'])) {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                     <label for="cpf" class="block text-gray-700 text-sm font-bold mb-2 transition-transform duration-300 ease-in-out">CPF</label>
-                    <div class="flex items-center">
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
-                        <div id="cpf-loading" class="loading-spinner"></div>
-                    </div>
-                    <div id="cpf-error" class="text-red-500 text-sm mt-1 hidden"></div>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
                 <div>
                     <label for="nome_completo" class="block text-gray-700 text-sm font-bold mb-2 transition-transform duration-300 ease-in-out">Nome Completo</label>
-                    <input type="text" id="nome_completo" name="nome_completo" placeholder="Preenchimento automático" required readonly class="bg-gray-100 shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                    <input type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu nome completo" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -185,16 +167,9 @@ if (isset($_SESSION['success_message'])) {
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const cpfInput = document.getElementById('cpf');
-            const nomeInput = document.getElementById('nome_completo');
             const telefoneInput = document.getElementById('telefone');
             const termosModalTrigger = document.getElementById('termosModalTrigger');
             const termosModal = document.getElementById('termosModal');
-            const cpfLoading = document.getElementById('cpf-loading');
-            const cpfError = document.getElementById('cpf-error');
-            
-            let typingTimer;
-            const doneTypingInterval = 1000; // 1 segundo
-            let cpfConsultado = false;
 
             if (cpfInput) {
                 cpfInput.addEventListener('input', (e) => {
@@ -204,50 +179,7 @@ if (isset($_SESSION['success_message'])) {
                     if (value.length > 6) value = value.replace(/(\d{3})(\d{3})(\d)/, '$1.$2.$3');
                     if (value.length > 9) value = value.replace(/(\d{3})(\d{3})(\d{3})(\d)/, '$1.$2.$3-$4');
                     e.target.value = value;
-                    
-                    // Limpa o timeout anterior
-                    clearTimeout(typingTimer);
-                    
-                    // Verifica se o CPF tem 11 dígitos (sem pontuação)
-                    const cpfSemFormatacao = value.replace(/\D/g, '');
-                    if (cpfSemFormatacao.length === 11) {
-                        cpfLoading.style.display = 'inline-block';
-                        cpfError.classList.add('hidden');
-                        
-                        // Inicia o timer
-                        typingTimer = setTimeout(() => {
-                            consultarCPF(cpfSemFormatacao);
-                        }, doneTypingInterval);
-                    } else {
-                        // Limpa o campo de nome se o CPF for alterado/apagado
-                        nomeInput.value = '';
-                        cpfConsultado = false;
-                    }
                 });
-            }
-
-            function consultarCPF(cpf) {
-                fetch(`../../api/consulta_cpf.php?cpf=${cpf}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        cpfLoading.style.display = 'none';
-                        
-                        if (data.status === 'success') {
-                            nomeInput.value = data.nome;
-                            cpfConsultado = true;
-                        } else {
-                            nomeInput.value = '';
-                            cpfError.textContent = data.msg || 'Erro ao consultar CPF';
-                            cpfError.classList.remove('hidden');
-                            cpfConsultado = false;
-                        }
-                    })
-                    .catch(error => {
-                        cpfLoading.style.display = 'none';
-                        cpfError.textContent = 'Erro ao consultar o serviço de CPF';
-                        cpfError.classList.remove('hidden');
-                        cpfConsultado = false;
-                    });
             }
 
             if (telefoneInput) {
@@ -266,15 +198,6 @@ if (isset($_SESSION['success_message'])) {
                     toggleModal();
                 });
             }
-            
-            // Validação de formulário para garantir que o CPF foi consultado com sucesso
-            document.querySelector('form').addEventListener('submit', function(e) {
-                if (!cpfConsultado) {
-                    e.preventDefault();
-                    cpfError.textContent = 'Por favor, consulte um CPF válido antes de prosseguir';
-                    cpfError.classList.remove('hidden');
-                }
-            });
         });
 
         function toggleModal() {
