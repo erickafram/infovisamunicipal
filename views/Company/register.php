@@ -91,7 +91,7 @@ $_SESSION['resposta_antispam'] = $pergunta_atual['resposta'];
                 </div>
                 <div>
                     <label for="email" class="block text-gray-700 text-sm font-bold mb-2 transition-transform duration-300 ease-in-out">Email</label>
-                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500" style="text-transform: lowercase;">
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
@@ -214,6 +214,14 @@ $_SESSION['resposta_antispam'] = $pergunta_atual['resposta'];
             if (nomeCompletoInput) {
                 nomeCompletoInput.addEventListener('input', (e) => {
                     e.target.value = e.target.value.toUpperCase();
+                });
+            }
+
+            // Converter email para minúsculas
+            const emailInput = document.getElementById('email');
+            if (emailInput) {
+                emailInput.addEventListener('input', (e) => {
+                    e.target.value = e.target.value.toLowerCase();
                 });
             }
 
