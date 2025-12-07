@@ -10,7 +10,29 @@ if (isset($_SESSION['success_message'])) {
     unset($_SESSION['success_message']); // Limpa a mensagem após exibição
     echo '<script>setTimeout(function() { window.location.href = "../../login.php"; }, 2000);</script>';
 }
+
+// Perguntas anti-spam simples
+$perguntas_antispam = [
+    ['pergunta' => 'Qual é a capital do Brasil?', 'resposta' => 'brasilia'],
+    ['pergunta' => 'Quanto é 2 + 3?', 'resposta' => '5'],
+    ['pergunta' => 'Qual é a cor do céu em um dia ensolarado?', 'resposta' => 'azul'],
+    ['pergunta' => 'Quantos dias tem uma semana?', 'resposta' => '7'],
+    ['pergunta' => 'Qual é o maior planeta do sistema solar?', 'resposta' => 'jupiter'],
+    ['pergunta' => 'Quanto é 10 - 4?', 'resposta' => '6'],
+    ['pergunta' => 'Qual animal é conhecido como o melhor amigo do homem?', 'resposta' => 'cachorro'],
+    ['pergunta' => 'Quantos meses tem um ano?', 'resposta' => '12'],
+    ['pergunta' => 'Quanto é 3 x 3?', 'resposta' => '9'],
+    ['pergunta' => 'Qual é a primeira letra do alfabeto?', 'resposta' => 'a'],
+];
+
+// Seleciona uma pergunta aleatória
+$indice_pergunta = array_rand($perguntas_antispam);
+$pergunta_atual = $perguntas_antispam[$indice_pergunta];
+
+// Armazena a resposta correta na sessão
+$_SESSION['resposta_antispam'] = $pergunta_atual['resposta'];
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -94,6 +116,22 @@ if (isset($_SESSION['success_message'])) {
                     <label for="senha_confirmacao" class="block text-gray-700 text-sm font-bold mb-2 transition-transform duration-300 ease-in-out">Confirmar Senha</label>
                     <input type="password" id="senha_confirmacao" name="senha_confirmacao" placeholder="Repita a senha" required class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
+            </div>
+
+            <!-- Verificação Anti-Spam -->
+            <div class="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                <div class="flex items-center mb-2">
+                    <svg class="w-5 h-5 text-amber-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                    <span class="text-amber-800 font-semibold text-sm">Verificação de Segurança</span>
+                </div>
+                <label for="resposta_antispam" class="block text-gray-700 text-sm font-bold mb-2">
+                    <?php echo htmlspecialchars($pergunta_atual['pergunta']); ?>
+                </label>
+                <input type="text" id="resposta_antispam" name="resposta_antispam" placeholder="Digite sua resposta" required 
+                    class="shadow appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-amber-500">
+                <p class="text-xs text-gray-500 mt-1">Responda à pergunta acima para confirmar que você não é um robô.</p>
             </div>
 
             <div class="mb-6">

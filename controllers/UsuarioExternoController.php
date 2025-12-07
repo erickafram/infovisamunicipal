@@ -16,6 +16,22 @@ class UsuarioExternoController
     public function create()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            // Validação anti-spam
+            $resposta_usuario = isset($_POST['resposta_antispam']) ? trim(strtolower($_POST['resposta_antispam'])) : '';
+            $resposta_correta = isset($_SESSION['resposta_antispam']) ? $_SESSION['resposta_antispam'] : '';
+            
+            // Remove acentos para comparação mais flexível
+            $resposta_usuario = $this->removerAcentos($resposta_usuario);
+            
+            if ($resposta_usuario !== $resposta_correta) {
+                $_SESSION['error_message'] = "Erro: Resposta de verificação incorreta. Por favor, tente novamente.";
+                header("Location: ../views/Company/register.php");
+                return;
+            }
+            
+            // Limpa a resposta da sessão após validação
+            unset($_SESSION['resposta_antispam']);
+
             $this->usuarioExterno->nome_completo = $_POST['nome_completo'] ?? '';
             $this->usuarioExterno->cpf = $_POST['cpf'] ?? '';
             $this->usuarioExterno->telefone = $_POST['telefone'] ?? '';
@@ -62,6 +78,22 @@ class UsuarioExternoController
     public function register()
     {
         $this->create();
+    }
+    
+    /**
+     * Remove acentos de uma string para comparação flexível
+     */
+    private function removerAcentos($string)
+    {
+        $acentos = array(
+            'á' => 'a', 'à' => 'a', 'ã' => 'a', 'â' => 'a', 'ä' => 'a',
+            'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
+            'í' => 'i', 'ì' => 'i', 'î' => 'i', 'ï' => 'i',
+            'ó' => 'o', 'ò' => 'o', 'õ' => 'o', 'ô' => 'o', 'ö' => 'o',
+            'ú' => 'u', 'ù' => 'u', 'û' => 'u', 'ü' => 'u',
+            'ç' => 'c', 'ñ' => 'n'
+        );
+        return strtr($string, $acentos);
     }
 }
 
