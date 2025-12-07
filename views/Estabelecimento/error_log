@@ -1,0 +1,51 @@
+[20-Jun-2024 23:39:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`vigilanc_infovisa`.`usuarios_estabelecimentos`, CONSTRAINT `usuarios_estabelecimentos_ibfk_2` FOREIGN KEY (`estabelecimento_id`) REFERENCES `estabelecimentos` (`id`)) in /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php:89
+Stack trace:
+#0 /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php(89): mysqli_stmt->execute()
+#1 /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/excluir_estabelecimento.php(16): Estabelecimento->delete()
+#2 {main}
+  thrown in /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php on line 89
+[17-Jul-2024 03:33:55 UTC] PHP Warning:  Undefined array key "data_cadastro" in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 206
+[17-Jul-2024 03:33:55 UTC] PHP Stack trace:
+[17-Jul-2024 03:33:55 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[13-Sep-2024 14:06:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:227) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[13-Sep-2024 14:06:02 UTC] PHP Stack trace:
+[13-Sep-2024 14:06:02 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[13-Sep-2024 14:06:02 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[13-Sep-2024 14:06:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:227) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[13-Sep-2024 14:06:15 UTC] PHP Stack trace:
+[13-Sep-2024 14:06:15 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[13-Sep-2024 14:06:15 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[13-Sep-2024 14:06:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:227) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[13-Sep-2024 14:06:29 UTC] PHP Stack trace:
+[13-Sep-2024 14:06:29 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[13-Sep-2024 14:06:29 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[13-Sep-2024 14:06:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:227) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[13-Sep-2024 14:06:54 UTC] PHP Stack trace:
+[13-Sep-2024 14:06:54 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[13-Sep-2024 14:06:54 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[21-Oct-2024 13:01:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`vigilanc_infovisa`.`usuarios_estabelecimentos`, CONSTRAINT `usuarios_estabelecimentos_ibfk_2` FOREIGN KEY (`estabelecimento_id`) REFERENCES `estabelecimentos` (`id`)) in /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php:93
+Stack trace:
+#0 /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php(93): mysqli_stmt->execute()
+#1 /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/excluir_estabelecimento.php(16): Estabelecimento->delete()
+#2 {main}
+  thrown in /home/vigilanc/public_html/visamunicipal/models/Estabelecimento.php on line 93
+[19-Nov-2024 11:48:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:206) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[19-Nov-2024 11:48:00 UTC] PHP Stack trace:
+[19-Nov-2024 11:48:00 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[19-Nov-2024 11:48:00 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[19-Nov-2024 11:48:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:206) in /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php on line 33
+[19-Nov-2024 11:48:16 UTC] PHP Stack trace:
+[19-Nov-2024 11:48:16 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:0
+[19-Nov-2024 11:48:16 UTC] PHP   2. header($header = 'Location: listar_estabelecimentos.php?error=Voc%C3%AA+n%C3%A3o+tem+permiss%C3%A3o+para+acessar+este+estabelecimento.') /home/vigilanc/public_html/visamunicipal/views/Estabelecimento/detalhes_estabelecimento.php:33
+[15-May-2025 14:15:18 UTC] [2025-05-15 14:15:18] - === INÍCIO DO PROCESSO DE APROVAÇÃO ===
+[15-May-2025 14:15:18 UTC] [2025-05-15 14:15:18] - Requisição recebida: {"id":"763"}
+[15-May-2025 14:15:18 UTC] [2025-05-15 14:15:18] - Erro: Nível de acesso insuficiente. Nível do usuário: 1
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - === INÍCIO DO PROCESSO DE APROVAÇÃO ===
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - Requisição recebida: {"id":"1578"}
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - ID do estabelecimento a ser aprovado: 1578
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - Estabelecimento encontrado. Status atual: pendente
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - Executando SQL UPDATE para aprovar o estabelecimento...
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - SQL executado com sucesso. Linhas afetadas: 1
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - Estabelecimento aprovado com sucesso!
+[15-May-2025 14:16:55 UTC] [2025-05-15 14:16:55] - === FIM DO PROCESSO DE APROVAÇÃO ===
+[2025-05-15 14:18:00] Tentativa de aprovação forçada - Usuário: suporteinfovisa@gmail.com[2025-05-15 14:18:00] Tentando aprovar estabelecimento ID: 1578[2025-05-15 14:18:00] Aprovação realizada com sucesso. Linhas afetadas: 1[2025-06-01 17:17:52] Tentativa de aprovação forçada - Usuário: suporteinfovisa@gmail.com[2025-06-01 17:17:52] Tentando aprovar estabelecimento ID: 1585[2025-06-01 17:17:52] Aprovação realizada com sucesso. Linhas afetadas: 1

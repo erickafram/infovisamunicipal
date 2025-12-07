@@ -1,0 +1,27 @@
+{
+  "name": "InfoVisa - Sistema de Vigilância Sanitária",
+  "short_name": "InfoVisa",
+  "description": "Sistema de Informações de Vigilância Sanitária",
+  "start_url": "/visamunicipal/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/visamunicipal/",
+  "icons": [
+    {
+      "src": "/visamunicipal/assets/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/visamunicipal/assets/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["government", "productivity"],
+  "lang": "pt-BR"
+} 

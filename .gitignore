@@ -1,0 +1,48 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos de ambiente e configuração sensível
+.env
+*.env.local
+conf/config.php
+
+# Logs
+*.log
+/logs/
+
+# Uploads
+/uploads/
+
+# Cache e arquivos temporários
+*.cache
+/cache/
+*.tmp
+
+# Banco de dados
+*.sql
+*.sqlite
+
+# Arquivos de backup e compactados
+*.zip
+*.tar.gz
+*.rar
+_visamunicipal.zip
+
+# Certificados (dados sensíveis)
+/certificados/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos do sistema
+composer-setup.php
+info.php
+
+# Arquivos de distribuição (se gerados)
+/dist/

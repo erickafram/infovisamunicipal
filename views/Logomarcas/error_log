@@ -1,0 +1,25 @@
+[17-Jun-2024 13:14:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php on line 14
+[17-Jun-2024 13:14:00 UTC] PHP Stack trace:
+[17-Jun-2024 13:14:00 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:0
+[17-Jun-2024 13:14:00 UTC] PHP   2. LogomarcaController->create() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:20
+[17-Jun-2024 13:14:00 UTC] PHP   3. session_start() /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php:14
+[17-Jun-2024 13:14:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php on line 14
+[17-Jun-2024 13:14:14 UTC] PHP Stack trace:
+[17-Jun-2024 13:14:14 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:0
+[17-Jun-2024 13:14:14 UTC] PHP   2. LogomarcaController->create() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:20
+[17-Jun-2024 13:14:14 UTC] PHP   3. session_start() /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php:14
+[17-Jun-2024 13:14:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php on line 14
+[17-Jun-2024 13:14:49 UTC] PHP Stack trace:
+[17-Jun-2024 13:14:49 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:0
+[17-Jun-2024 13:14:49 UTC] PHP   2. LogomarcaController->create() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:20
+[17-Jun-2024 13:14:49 UTC] PHP   3. session_start() /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php:14
+[17-Jun-2024 16:38:04 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php on line 14
+[17-Jun-2024 16:38:04 UTC] PHP Stack trace:
+[17-Jun-2024 16:38:04 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:0
+[17-Jun-2024 16:38:04 UTC] PHP   2. LogomarcaController->create() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:20
+[17-Jun-2024 16:38:04 UTC] PHP   3. session_start() /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php:14
+[28-Jun-2024 16:52:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php on line 14
+[28-Jun-2024 16:52:57 UTC] PHP Stack trace:
+[28-Jun-2024 16:52:57 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:0
+[28-Jun-2024 16:52:57 UTC] PHP   2. LogomarcaController->create() /home/vigilanc/public_html/visamunicipal/views/Logomarcas/cadastrar_logomarca.php:20
+[28-Jun-2024 16:52:57 UTC] PHP   3. session_start() /home/vigilanc/public_html/visamunicipal/controllers/LogomarcaController.php:14

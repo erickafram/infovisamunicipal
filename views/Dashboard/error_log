@@ -1,0 +1,4 @@
+[10-Jul-2024 14:56:16 UTC] PHP Warning:  Undefined array key "nivel_acesso" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 20
+[10-Jul-2024 14:56:16 UTC] PHP Stack trace:
+[10-Jul-2024 14:56:16 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Dashboard/dashboard.php:0
+[10-Jul-2024 14:56:16 UTC] PHP   2. include() /home/vigilanc/public_html/visamunicipal/views/Dashboard/dashboard.php:3

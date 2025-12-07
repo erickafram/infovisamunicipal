@@ -1,0 +1,15 @@
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 49
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 49
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 60
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 60
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 74
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 74
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[03-Jun-2024 21:00:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:89) in /home/vigilanc/public_html/visamunicipal/views/Alertas/alertalista.php on line 9
+[07-Oct-2024 14:10:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:227) in /home/vigilanc/public_html/visamunicipal/views/Alertas/detalhes_alerta.php on line 24
+[07-Oct-2024 14:10:08 UTC] PHP Stack trace:
+[07-Oct-2024 14:10:08 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Alertas/detalhes_alerta.php:0
+[07-Oct-2024 14:10:08 UTC] PHP   2. header($header = 'Location: ../Dashboard/dashboard.php') /home/vigilanc/public_html/visamunicipal/views/Alertas/detalhes_alerta.php:24

@@ -1,0 +1,7 @@
+# Configuração simples de charset UTF-8
+AddDefaultCharset UTF-8
+
+# Configuração para arquivos markdown
+<IfModule mod_mime.c>
+    AddType "text/plain; charset=utf-8" .md
+</IfModule> 

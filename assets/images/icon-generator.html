@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Ícones InfoVisa</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .icon-container {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #2563eb;
+        }
+        h1 {
+            color: #1e40af;
+        }
+        .instructions {
+            background-color: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Ícones InfoVisa</h1>
+        
+        <div class="instructions">
+            <h3>Instruções:</h3>
+            <ol>
+                <li>Clique nos botões abaixo para gerar os ícones necessários para o PWA</li>
+                <li>Após gerados, use o botão "Baixar" para salvar cada ícone</li>
+                <li>Salve os ícones na pasta /assets/images/ como icon-192x192.png e icon-512x512.png</li>
+            </ol>
+        </div>
+        
+        <div class="icon-container">
+            <h3>Ícone 192x192</h3>
+            <canvas id="canvas192" width="192" height="192"></canvas>
+            <button id="generate192">Gerar Ícone 192x192</button>
+            <button id="download192">Baixar Ícone 192x192</button>
+        </div>
+        
+        <div class="icon-container">
+            <h3>Ícone 512x512</h3>
+            <canvas id="canvas512" width="512" height="512"></canvas>
+            <button id="generate512">Gerar Ícone 512x512</button>
+            <button id="download512">Baixar Ícone 512x512</button>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const canvas192 = document.getElementById('canvas192');
+            const ctx192 = canvas192.getContext('2d');
+            
+            const canvas512 = document.getElementById('canvas512');
+            const ctx512 = canvas512.getContext('2d');
+            
+            function drawIcon(ctx, size) {
+                // Limpar o canvas
+                ctx.clearRect(0, 0, size, size);
+                
+                // Definir gradiente de fundo
+                const gradient = ctx.createLinearGradient(0, 0, size, size);
+                gradient.addColorStop(0, '#3b82f6');  // Azul
+                gradient.addColorStop(1, '#2563eb');  // Azul mais escuro
+                
+                // Desenhar fundo
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(size/2, size/2, size/2, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Adicionar efeito de sombra interna
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(size/2, size/2, size/2 - size/20, 0, Math.PI * 2);
+                ctx.clip();
+                ctx.fillStyle = 'rgba(0,0,0,0.1)';
+                ctx.fillRect(0, 0, size, size/10);
+                ctx.restore();
+                
+                // Adicionar brilho
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(size/2, size/2, size/2 - size/20, 0, Math.PI * 2);
+                ctx.clip();
+                ctx.fillStyle = 'rgba(255,255,255,0.1)';
+                ctx.fillRect(0, size - size/5, size, size/5);
+                ctx.restore();
+                
+                // Definir estilo do texto
+                ctx.fillStyle = 'white';
+                ctx.font = `bold ${size/3}px Arial, sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                // Desenhar texto
+                ctx.fillText("IV", size/2, size/2);
+                
+                // Adicionar sombra ao texto
+                ctx.shadowColor = 'rgba(0,0,0,0.3)';
+                ctx.shadowBlur = size/30;
+                ctx.shadowOffsetX = size/100;
+                ctx.shadowOffsetY = size/100;
+            }
+            
+            document.getElementById('generate192').addEventListener('click', function() {
+                drawIcon(ctx192, 192);
+            });
+            
+            document.getElementById('generate512').addEventListener('click', function() {
+                drawIcon(ctx512, 512);
+            });
+            
+            document.getElementById('download192').addEventListener('click', function() {
+                const link = document.createElement('a');
+                link.download = 'icon-192x192.png';
+                link.href = canvas192.toDataURL('image/png');
+                link.click();
+            });
+            
+            document.getElementById('download512').addEventListener('click', function() {
+                const link = document.createElement('a');
+                link.download = 'icon-512x512.png';
+                link.href = canvas512.toDataURL('image/png');
+                link.click();
+            });
+            
+            // Gerar ícones automaticamente
+            drawIcon(ctx192, 192);
+            drawIcon(ctx512, 512);
+        });
+    </script>
+</body>
+</html>

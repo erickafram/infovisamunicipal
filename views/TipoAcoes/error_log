@@ -1,0 +1,10 @@
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 49
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 49
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 60
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 60
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 74
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 74
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Undefined array key "user" in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93
+[04-Jun-2024 02:52:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vigilanc/public_html/visamunicipal/views/header.php on line 93

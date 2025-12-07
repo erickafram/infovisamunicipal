@@ -1,0 +1,196 @@
+/* Correções para o menu lateral */
+
+/* Transição suave para o menu */
+.sidebar {
+    transition: width 0.3s ease;
+}
+
+/* Estilo dos textos do menu */
+.sidebar .nav-link span {
+    transition: opacity 0.3s, visibility 0.3s;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Ocultar texto quando o menu está colapsado */
+.sidebar.collapsed .nav-link span {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    display: none;
+}
+
+/* Exibir texto ao passar o mouse sobre o item quando o menu está colapsado */
+@media (min-width: 992px) {
+    .sidebar.collapsed .nav-item:hover .nav-link span {
+        position: absolute;
+        left: 80px;
+        background-color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        width: auto;
+        white-space: nowrap;
+        z-index: 1060;
+    }
+    
+    /* Exibir submenu ao passar o mouse sobre o item quando o menu está colapsado */
+    .sidebar.collapsed .nav-item:hover .dropdown-menu {
+        display: block;
+        max-height: 1000px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Ocultar submenu quando o menu está colapsado */
+.sidebar.collapsed .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, max-height 0.3s;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 991.98px) {
+    body {
+        padding-left: 0 !important;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        width: 250px !important;
+    }
+    
+    .sidebar.mobile-show {
+        transform: translateX(0);
+    }
+    
+    /* CORREÇÃO IMPORTANTE: Sempre mostrar texto em mobile */
+    .sidebar .nav-link span,
+    .sidebar.collapsed .nav-link span,
+    .sidebar.mobile-show .nav-link span,
+    .sidebar.collapsed.mobile-show .nav-link span {
+        opacity: 1 !important;
+        visibility: visible !important;
+        width: auto !important;
+        display: inline-block !important;
+    }
+    
+    /* NUNCA ocultar texto em mobile */
+    .sidebar .nav-link span {
+        display: inline-block !important;
+    }
+    
+    /* Forçar largura correta para caber texto */
+    .sidebar,
+    .sidebar.collapsed {
+        width: 250px !important;
+    }
+    
+    /* Garantir que os ícones de seta sejam exibidos */
+    .sidebar .fa-chevron-down,
+    .sidebar.collapsed .fa-chevron-down,
+    .sidebar.mobile-show .fa-chevron-down,
+    .sidebar.collapsed.mobile-show .fa-chevron-down {
+        display: inline-block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Impedir que o menu collapse em mobile */
+    .sidebar .nav-link,
+    .sidebar.collapsed .nav-link,
+    .sidebar.mobile-show .nav-link,
+    .sidebar.collapsed.mobile-show .nav-link {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+    
+    /* Garantir que a estrutura interna do link permaneça visível */
+    .sidebar .nav-link > div,
+    .sidebar.collapsed .nav-link > div,
+    .sidebar.mobile-show .nav-link > div,
+    .sidebar.collapsed.mobile-show .nav-link > div {
+        opacity: 1 !important;
+        visibility: visible !important;
+        width: auto !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    /* Ajustar estilo do dropdown em mobile */
+    .sidebar .dropdown-menu,
+    .sidebar.collapsed .dropdown-menu,
+    .sidebar.mobile-show .dropdown-menu,
+    .sidebar.collapsed.mobile-show .dropdown-menu {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        width: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+        max-height: none !important;
+    }
+    
+    /* Adicionar indentação para o dropdown */
+    .sidebar .submenu .dropdown-item,
+    .sidebar.mobile-show .submenu .dropdown-item,
+    .sidebar.collapsed.mobile-show .submenu .dropdown-item {
+        padding-left: 45px !important;
+    }
+    
+    /* Estilizar os submenus quando abertos em mobile */
+    .sidebar .collapse.show,
+    .sidebar.collapsed .collapse.show,
+    .sidebar.mobile-show .collapse.show,
+    .sidebar.collapsed.mobile-show .collapse.show {
+        display: block !important;
+        max-height: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        background-color: rgba(0, 0, 0, 0.03) !important;
+        border-radius: 4px !important;
+        margin: 0 8px !important;
+    }
+    
+    /* Estilizar os itens do submenu */
+    .sidebar .collapse.show .dropdown-item,
+    .sidebar.collapsed .collapse.show .dropdown-item,
+    .sidebar.mobile-show .collapse.show .dropdown-item,
+    .sidebar.collapsed.mobile-show .collapse.show .dropdown-item {
+        font-size: 0.85em !important;
+        padding: 8px 15px 8px 35px !important;
+        color: #495057 !important;
+    }
+    
+    /* Ícone de rotação para setas dos menus */
+    .sidebar .nav-link[aria-expanded="true"] .fa-chevron-down,
+    .sidebar.collapsed .nav-link[aria-expanded="true"] .fa-chevron-down,
+    .sidebar.mobile-show .nav-link[aria-expanded="true"] .fa-chevron-down,
+    .sidebar.collapsed.mobile-show .nav-link[aria-expanded="true"] .fa-chevron-down {
+        transform: rotate(180deg) !important;
+    }
+    
+    /* Fundo para o backdrop */
+    .mobile-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1039;
+        display: none;
+    }
+    
+    .mobile-backdrop.show {
+        display: block;
+    }
+} 

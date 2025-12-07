@@ -1,0 +1,131 @@
+/* 
+ * MOBILE OVERRIDE CSS
+ * Este arquivo contém estilos específicos para dispositivos móveis
+ * que têm prioridade sobre todos os outros estilos
+ */
+
+/* Regras específicas para dispositivos móveis */
+@media (max-width: 991.98px) {
+    /* REGRA PRINCIPAL: Garantir que o texto do menu seja sempre visível */
+    .sidebar .nav-link span {
+        display: inline-block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        width: auto !important;
+        height: auto !important;
+        overflow: visible !important;
+        margin-right: 10px !important;
+    }
+    
+    /* Garantir que os ícones de menu sejam visíveis e alinhados */
+    .sidebar .nav-link i {
+        display: inline-block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        margin-right: 10px !important;
+    }
+    
+    /* Garantir que as setas de dropdown sejam visíveis */
+    .sidebar .nav-link .fa-chevron-down {
+        display: inline-block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Garantir que o menu em si tenha largura suficiente */
+    .sidebar, 
+    .sidebar.collapsed {
+        width: 250px !important;
+        min-width: 250px !important;
+    }
+    
+    /* Garantir que os links do menu estejam bem formatados */
+    .sidebar .nav-link,
+    .sidebar.collapsed .nav-link {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 10px 15px !important;
+        width: 100% !important;
+    }
+    
+    /* Garantir que os containers internos dos links funcionem */
+    .sidebar .nav-link > div,
+    .sidebar.collapsed .nav-link > div {
+        display: flex !important;
+        align-items: center !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        width: auto !important;
+    }
+    
+    /* Garantir que os dropdowns fiquem posicionados corretamente */
+    .sidebar .dropdown-menu,
+    .sidebar.collapsed .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        background-color: rgba(0, 0, 0, 0.03) !important;
+        border: none !important;
+        box-shadow: none !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        border-radius: 4px !important;
+    }
+    
+    /* Estilo para os itens dos dropdowns */
+    .sidebar .dropdown-item,
+    .sidebar.collapsed .dropdown-item {
+        padding: 8px 15px 8px 35px !important;
+        font-size: 0.9em !important;
+    }
+    
+    /* Restaurar corpo do texto colapsado em mobile */
+    .sidebar.collapsed .nav-link span {
+        width: auto !important;
+        height: auto !important;
+        display: inline-block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Remover qualquer animação que possa estar causando problemas */
+    .sidebar * {
+        transition: none !important;
+    }
+    
+    /* Corrigir problemas de padding no mobile */
+    body, 
+    body.sidebar-collapsed {
+        padding-left: 0 !important;
+    }
+}
+
+/* Garantir visibilidade para classe específica aplicada pelo JavaScript */
+html.mobile-view .sidebar .nav-link span,
+html.mobile-view .sidebar.collapsed .nav-link span,
+body.mobile-menu-ready .sidebar .nav-link span,
+body.mobile-menu-ready .sidebar.collapsed .nav-link span {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: auto !important;
+}
+
+/* Aplicar quando o menu está aberto em mobile */
+.sidebar.mobile-show .nav-link span,
+.sidebar.collapsed.mobile-show .nav-link span {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: auto !important;
+}
+
+/* Classe específica aplicada pelo JavaScript */
+.sidebar.mobile-fix-applied .nav-link span {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: auto !important;
+} 

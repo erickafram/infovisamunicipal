@@ -1,0 +1,944 @@
+[06-Jun-2024 14:46:29 UTC] Debug: Data Início - 2024-06-06, Data Fim - 2024-06-07, Ações Executadas - ["47"], Técnicos - ["14"], PDF Path - , Estabelecimento ID - 93, Processo ID - 107, Observação - TESTE
+[06-Jun-2024 14:46:36 UTC] Debug: Data Início - 2024-06-06, Data Fim - 2024-06-07, Ações Executadas - ["47"], Técnicos - ["14"], PDF Path - , Estabelecimento ID - 93, Processo ID - 107, Observação - TESTE
+[06-Jun-2024 14:46:48 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 47
+)
+
+[06-Jun-2024 14:46:48 UTC] Ordem completa na finalização: Array
+(
+    [id] => 294
+    [estabelecimento_id] => 93
+    [processo_id] => 107
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["47"]
+    [tecnicos] => ["14"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => TESTE
+    [razao_social] => SUPERMERCADO TIO PATINHAS LTDA
+    [nome_fantasia] => SUPERMERCADO TIO PATINHAS
+    [numero_processo] => 2024/00001
+    [endereco] => RUA D, 1595 QUADRA62 LOTE 19 - WALDIR LINS I, GURUPI - TO, CEP: 77423030
+    [acoes_executadas_descricao] => INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+        )
+
+)
+
+[06-Jun-2024 14:46:48 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:46:48 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:46:48 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[06-Jun-2024 14:46:48 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[06-Jun-2024 14:46:48 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[06-Jun-2024 14:46:48 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[06-Jun-2024 14:46:48 UTC] Pontuação total calculada: 110
+[06-Jun-2024 14:46:48 UTC] Pontuação total calculada na finalização: 110
+[06-Jun-2024 14:47:35 UTC] Debug: Data Início - 2024-06-06, Data Fim - 2024-06-07, Ações Executadas - ["47"], Técnicos - ["14","15"], PDF Path - , Estabelecimento ID - 93, Processo ID - 107, Observação - TESTE
+[06-Jun-2024 14:47:44 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 47
+)
+
+[06-Jun-2024 14:47:44 UTC] Ordem completa na finalização: Array
+(
+    [id] => 294
+    [estabelecimento_id] => 93
+    [processo_id] => 107
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["47"]
+    [tecnicos] => ["14","15"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => TESTE
+    [razao_social] => SUPERMERCADO TIO PATINHAS LTDA
+    [nome_fantasia] => SUPERMERCADO TIO PATINHAS
+    [numero_processo] => 2024/00001
+    [endereco] => RUA D, 1595 QUADRA62 LOTE 19 - WALDIR LINS I, GURUPI - TO, CEP: 77423030
+    [acoes_executadas_descricao] => INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+        )
+
+)
+
+[06-Jun-2024 14:47:44 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:47:44 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:47:44 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[06-Jun-2024 14:47:44 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[06-Jun-2024 14:47:44 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[06-Jun-2024 14:47:44 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[06-Jun-2024 14:47:44 UTC] Pontuação total calculada: 110
+[06-Jun-2024 14:47:44 UTC] Pontuação total calculada na finalização: 110
+[06-Jun-2024 14:48:32 UTC] Debug: Data Início - 2024-06-06, Data Fim - 2024-06-07, Ações Executadas - ["7","8","47"], Técnicos - ["14","15"], PDF Path - , Estabelecimento ID - 93, Processo ID - 107, Observação - TESTE
+[06-Jun-2024 14:48:43 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 7
+    [1] => 8
+    [2] => 47
+)
+
+[06-Jun-2024 14:48:43 UTC] Ordem completa na finalização: Array
+(
+    [id] => 294
+    [estabelecimento_id] => 93
+    [processo_id] => 107
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["7","8","47"]
+    [tecnicos] => ["14","15"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => TESTE
+    [razao_social] => SUPERMERCADO TIO PATINHAS LTDA
+    [nome_fantasia] => SUPERMERCADO TIO PATINHAS
+    [numero_processo] => 2024/00001
+    [endereco] => RUA D, 1595 QUADRA62 LOTE 19 - WALDIR LINS I, GURUPI - TO, CEP: 77423030
+    [acoes_executadas_descricao] => INSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS, REINSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS, INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+        )
+
+)
+
+[06-Jun-2024 14:48:43 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:48:43 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[06-Jun-2024 14:48:43 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 8, Grupo de Risco ID: 2
+[06-Jun-2024 14:48:43 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 2
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[06-Jun-2024 14:48:43 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[06-Jun-2024 14:48:43 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 8, Grupo de Risco ID: 3
+[06-Jun-2024 14:48:43 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 3
+[06-Jun-2024 14:48:43 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[06-Jun-2024 14:48:43 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[06-Jun-2024 14:48:43 UTC] Pontuação total calculada: 210
+[06-Jun-2024 14:48:43 UTC] Pontuação total calculada na finalização: 210
+[06-Jun-2024 14:49:13 UTC] Debug: Data Início - 2024-06-06, Data Fim - 2024-06-07, Ações Executadas - ["7"], Técnicos - ["14","15"], PDF Path - , Estabelecimento ID - 93, Processo ID - 107, Observação - TESTE
+[06-Jun-2024 14:49:14 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 7
+)
+
+[06-Jun-2024 14:49:14 UTC] Ordem completa na finalização: Array
+(
+    [id] => 294
+    [estabelecimento_id] => 93
+    [processo_id] => 107
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["7"]
+    [tecnicos] => ["14","15"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => TESTE
+    [razao_social] => SUPERMERCADO TIO PATINHAS LTDA
+    [nome_fantasia] => SUPERMERCADO TIO PATINHAS
+    [numero_processo] => 2024/00001
+    [endereco] => RUA D, 1595 QUADRA62 LOTE 19 - WALDIR LINS I, GURUPI - TO, CEP: 77423030
+    [acoes_executadas_descricao] => INSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+        )
+
+)
+
+[06-Jun-2024 14:49:14 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:49:14 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:49:14 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[06-Jun-2024 14:49:14 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[06-Jun-2024 14:49:14 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[06-Jun-2024 14:49:14 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[06-Jun-2024 14:49:14 UTC] Pontuação total calculada: 100
+[06-Jun-2024 14:49:14 UTC] Pontuação total calculada na finalização: 100
+[06-Jun-2024 14:49:26 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 46
+)
+
+[06-Jun-2024 14:49:26 UTC] Ordem completa na finalização: Array
+(
+    [id] => 297
+    [estabelecimento_id] => 
+    [processo_id] => 
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["46"]
+    [tecnicos] => ["12"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => asd
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => 
+    [nome_fantasia] => 
+    [numero_processo] => 
+    [endereco] => 
+    [acoes_executadas_descricao] => INSPEÇÃO DE ROTINA
+    [tecnicos_nomes] => Array
+        (
+            [0] => Usuario Teste
+        )
+
+)
+
+[06-Jun-2024 14:49:26 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:49:26 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:49:26 UTC] Grupo de risco ID: 1
+[06-Jun-2024 14:49:26 UTC] Processando Ação ID: 46, Grupo de Risco ID: 3
+[06-Jun-2024 14:49:26 UTC] Ação ID: 46, Grupo de Risco ID: 3, Pontuação: 55
+[06-Jun-2024 14:49:26 UTC] Processando Ação ID: 46, Grupo de Risco ID: 2
+[06-Jun-2024 14:49:26 UTC] Ação ID: 46, Grupo de Risco ID: 2, Pontuação: 45
+[06-Jun-2024 14:49:26 UTC] Processando Ação ID: 46, Grupo de Risco ID: 1
+[06-Jun-2024 14:49:26 UTC] Ação ID: 46, Grupo de Risco ID: 1, Pontuação: 35
+[06-Jun-2024 14:49:26 UTC] Pontuação total calculada: 135
+[06-Jun-2024 14:49:26 UTC] Pontuação total calculada na finalização: 135
+[06-Jun-2024 14:49:52 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[06-Jun-2024 14:49:52 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[06-Jun-2024 14:49:58 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 7
+    [1] => 8
+)
+
+[06-Jun-2024 14:49:58 UTC] Ordem completa na finalização: Array
+(
+    [id] => 298
+    [estabelecimento_id] => 
+    [processo_id] => 
+    [data_inicio] => 2024-06-06
+    [data_fim] => 2024-06-07
+    [acoes_executadas] => ["7","8"]
+    [tecnicos] => ["13","14","15","16"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => a
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => 
+    [nome_fantasia] => 
+    [numero_processo] => 
+    [endereco] => 
+    [acoes_executadas_descricao] => INSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS, REINSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS
+    [tecnicos_nomes] => Array
+        (
+            [0] => Rogério
+            [1] => Marcelo Prevedello Pigatto 
+            [2] => Patrick Neves Barros
+            [3] => Renato
+        )
+
+)
+
+[06-Jun-2024 14:49:58 UTC] Grupo de risco ID: 3
+[06-Jun-2024 14:49:58 UTC] Grupo de risco ID: 2
+[06-Jun-2024 14:49:58 UTC] Grupo de risco ID: 1
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[06-Jun-2024 14:49:58 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 8, Grupo de Risco ID: 3
+[06-Jun-2024 14:49:58 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 3
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[06-Jun-2024 14:49:58 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 8, Grupo de Risco ID: 2
+[06-Jun-2024 14:49:58 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 2
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 7, Grupo de Risco ID: 1
+[06-Jun-2024 14:49:58 UTC] Ação ID: 7, Grupo de Risco ID: 1, Pontuação: 35
+[06-Jun-2024 14:49:58 UTC] Processando Ação ID: 8, Grupo de Risco ID: 1
+[06-Jun-2024 14:49:58 UTC] Ação ID: 8, Grupo de Risco ID: 1, Pontuação: 35
+[06-Jun-2024 14:49:58 UTC] Pontuação total calculada: 170
+[06-Jun-2024 14:49:58 UTC] Pontuação total calculada na finalização: 170
+[16-Jun-2024 04:16:36 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 20
+    [1] => 47
+)
+
+[16-Jun-2024 04:16:36 UTC] Ordem completa na finalização: Array
+(
+    [id] => 1
+    [estabelecimento_id] => 2
+    [processo_id] => 2
+    [data_inicio] => 2024-06-12
+    [data_fim] => 2024-06-17
+    [acoes_executadas] => ["20","47"]
+    [tecnicos] => ["14","15"]
+    [pdf_path] => ../../uploads/ordem_servico/ordem_servico_1718205780.pdf
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => Verificar os laudos de potabilidade de água.
+    [razao_social] => STA - DISTRIBUIDORA DE ALIMENTOS LTDA
+    [nome_fantasia] => S.A. ALIMENTOS
+    [numero_processo] => 2024/00002
+    [endereco] => AVENIDA GOIAS, 872 QUADRACHACARA LOTE 41R GALPAO02 - SETOR CENTRAL, GURUPI - TO, CEP: 77410010
+    [acoes_executadas_descricao] => RELATÓRIO FISCAL, INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+        )
+
+)
+
+[16-Jun-2024 04:16:36 UTC] Grupo de risco ID: 3
+[16-Jun-2024 04:16:36 UTC] Grupo de risco ID: 2
+[16-Jun-2024 04:16:36 UTC] Processando Ação ID: 20, Grupo de Risco ID: 3
+[16-Jun-2024 04:16:36 UTC] Ação ID: 20, Grupo de Risco ID: 3, Pontuação: 50
+[16-Jun-2024 04:16:36 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[16-Jun-2024 04:16:36 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[16-Jun-2024 04:16:36 UTC] Processando Ação ID: 20, Grupo de Risco ID: 2
+[16-Jun-2024 04:16:36 UTC] Ação ID: 20, Grupo de Risco ID: 2, Pontuação: 45
+[16-Jun-2024 04:16:36 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[16-Jun-2024 04:16:36 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[16-Jun-2024 04:16:36 UTC] Pontuação total calculada: 205
+[16-Jun-2024 04:16:36 UTC] Pontuação total calculada na finalização: 205
+[17-Jun-2024 17:08:39 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[17-Jun-2024 17:08:39 UTC] PHP Stack trace:
+[17-Jun-2024 17:08:39 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[17-Jun-2024 17:08:39 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[17-Jun-2024 17:08:39 UTC] PHP Stack trace:
+[17-Jun-2024 17:08:39 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[17-Jun-2024 17:09:00 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 7
+)
+
+[17-Jun-2024 17:09:00 UTC] Ordem completa na finalização: Array
+(
+    [id] => 3
+    [estabelecimento_id] => 2
+    [processo_id] => 2
+    [data_inicio] => 2024-06-17
+    [data_fim] => 2024-06-18
+    [acoes_executadas] => ["7"]
+    [tecnicos] => ["14","15"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => STA - DISTRIBUIDORA DE ALIMENTOS LTDA
+    [nome_fantasia] => S.A. ALIMENTOS
+    [numero_processo] => 2024/00002
+    [endereco] => AVENIDA GOIAS, 872 QUADRACHACARA LOTE 41R GALPAO02 - SETOR CENTRAL, GURUPI - TO, CEP: 77410010
+    [acoes_executadas_descricao] => INSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+        )
+
+)
+
+[17-Jun-2024 17:09:00 UTC] Grupo de risco ID: 3
+[17-Jun-2024 17:09:00 UTC] Grupo de risco ID: 2
+[17-Jun-2024 17:09:00 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[17-Jun-2024 17:09:00 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[17-Jun-2024 17:09:00 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[17-Jun-2024 17:09:00 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[17-Jun-2024 17:09:00 UTC] Pontuação total calculada: 100
+[17-Jun-2024 17:09:00 UTC] Pontuação total calculada na finalização: 100
+[18-Jun-2024 13:38:04 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[18-Jun-2024 13:38:04 UTC] PHP Stack trace:
+[18-Jun-2024 13:38:04 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:38:04 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[18-Jun-2024 13:38:04 UTC] PHP Stack trace:
+[18-Jun-2024 13:38:04 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:49:59 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[18-Jun-2024 13:49:59 UTC] PHP Stack trace:
+[18-Jun-2024 13:49:59 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:49:59 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[18-Jun-2024 13:49:59 UTC] PHP Stack trace:
+[18-Jun-2024 13:49:59 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:56:48 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[18-Jun-2024 13:56:48 UTC] PHP Stack trace:
+[18-Jun-2024 13:56:48 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:56:48 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[18-Jun-2024 13:56:48 UTC] PHP Stack trace:
+[18-Jun-2024 13:56:48 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[18-Jun-2024 13:58:19 UTC] Debug: Data Início - 2024-06-18, Data Fim - 2024-06-19, Ações Executadas - ["47"], Técnicos - ["14"], PDF Path - , Estabelecimento ID - 10, Processo ID - 6, Observação - 
+[18-Jun-2024 13:59:56 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 47
+)
+
+[18-Jun-2024 13:59:56 UTC] Ordem completa na finalização: Array
+(
+    [id] => 4
+    [estabelecimento_id] => 10
+    [processo_id] => 6
+    [data_inicio] => 2024-06-18
+    [data_fim] => 2024-06-19
+    [acoes_executadas] => ["47"]
+    [tecnicos] => ["14"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => DROGA.SUA LTDA
+    [nome_fantasia] => DROGA.SUA
+    [numero_processo] => 2024/00003
+    [endereco] => AVENIDA GOIÁS, 3401 SALA 10 E 11 LOTE CHACARA 96 - ZONA URBANA, GURUPI - TO, CEP: 77410010
+    [acoes_executadas_descricao] => INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+        )
+
+)
+
+[18-Jun-2024 13:59:56 UTC] Grupo de risco ID: 3
+[18-Jun-2024 13:59:56 UTC] Grupo de risco ID: 2
+[18-Jun-2024 13:59:56 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[18-Jun-2024 13:59:56 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[18-Jun-2024 13:59:56 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[18-Jun-2024 13:59:56 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[18-Jun-2024 13:59:56 UTC] Pontuação total calculada: 110
+[18-Jun-2024 13:59:56 UTC] Pontuação total calculada na finalização: 110
+[18-Jun-2024 16:54:01 UTC] Debug: Data Início - 2024-06-18, Data Fim - 2024-06-19, Ações Executadas - ["47"], Técnicos - ["14","17"], PDF Path - , Estabelecimento ID - 10, Processo ID - 6, Observação - 
+[18-Jun-2024 16:54:34 UTC] Debug: Data Início - 2024-06-18, Data Fim - 2024-06-19, Ações Executadas - ["47"], Técnicos - ["14","17"], PDF Path - , Estabelecimento ID - 12, Processo ID - 7, Observação - 
+[18-Jun-2024 16:54:56 UTC] Debug: Data Início - 2024-06-18, Data Fim - 2024-06-19, Ações Executadas - ["47"], Técnicos - ["14","17"], PDF Path - , Estabelecimento ID - 13, Processo ID - 8, Observação - 
+[19-Jun-2024 13:17:40 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 7
+)
+
+[19-Jun-2024 13:17:40 UTC] Ordem completa na finalização: Array
+(
+    [id] => 7
+    [estabelecimento_id] => 14
+    [processo_id] => 9
+    [data_inicio] => 2024-06-18
+    [data_fim] => 2024-06-18
+    [acoes_executadas] => ["7"]
+    [tecnicos] => ["14","15","17"]
+    [pdf_path] => ../../uploads/ordem_servico/ordem_servico_1718802894.pdf
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => VERIAASIDJI OAJSDOJAIOSDJ
+    [razao_social] => SUPERMERCADO GURUPI LTDA
+    [nome_fantasia] => Não Informado
+    [numero_processo] => 2024/00005
+    [endereco] => RUA 20, 699 Não Informado - LOTEAMENTO SETOR VILA NOVA, GURUPI - TO, CEP: 77410610
+    [acoes_executadas_descricao] => INSPEÇÃO SANITÁRIA DE ESTABELECIMENTOS SUJEITOS A VIGILÂNCIA SANITÁRIA, EXCETO DE ALIMENTOS
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Patrick Neves Barros
+            [2] => Poliana Ribeiro Valadares Veras
+        )
+
+)
+
+[19-Jun-2024 13:17:40 UTC] Grupo de risco ID: 2
+[19-Jun-2024 13:17:40 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[19-Jun-2024 13:17:40 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[19-Jun-2024 13:17:40 UTC] Pontuação total calculada: 45
+[19-Jun-2024 13:17:40 UTC] Pontuação total calculada na finalização: 45
+[19-Jun-2024 13:26:16 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[19-Jun-2024 13:26:16 UTC] PHP Stack trace:
+[19-Jun-2024 13:26:16 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 13:26:16 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[19-Jun-2024 13:26:16 UTC] PHP Stack trace:
+[19-Jun-2024 13:26:16 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 13:28:57 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[19-Jun-2024 13:28:57 UTC] PHP Stack trace:
+[19-Jun-2024 13:28:57 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 13:28:57 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[19-Jun-2024 13:28:57 UTC] PHP Stack trace:
+[19-Jun-2024 13:28:57 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 13:29:17 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 9
+)
+
+[19-Jun-2024 13:29:17 UTC] Ordem completa na finalização: Array
+(
+    [id] => 9
+    [estabelecimento_id] => 
+    [processo_id] => 
+    [data_inicio] => 2024-06-18
+    [data_fim] => 2024-06-18
+    [acoes_executadas] => ["9"]
+    [tecnicos] => ["15"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Nao encontramos o estabelecimento
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => 
+    [nome_fantasia] => 
+    [numero_processo] => 
+    [endereco] => 
+    [acoes_executadas_descricao] => CONFERÊNCIA DE BMPO OU INVENTÁRIO DE MEDICAMENTOS SUJEITOS A CONTROLE ESPECIAL
+    [tecnicos_nomes] => Array
+        (
+            [0] => Patrick Neves Barros
+        )
+
+)
+
+[19-Jun-2024 13:29:17 UTC] Grupo de risco ID: 1
+[19-Jun-2024 13:29:17 UTC] Grupo de risco ID: 2
+[19-Jun-2024 13:29:17 UTC] Grupo de risco ID: 3
+[19-Jun-2024 13:29:17 UTC] Processando Ação ID: 9, Grupo de Risco ID: 1
+[19-Jun-2024 13:29:17 UTC] Ação ID: 9, Grupo de Risco ID: 1, Pontuação: 80
+[19-Jun-2024 13:29:17 UTC] Processando Ação ID: 9, Grupo de Risco ID: 2
+[19-Jun-2024 13:29:17 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 2
+[19-Jun-2024 13:29:17 UTC] Processando Ação ID: 9, Grupo de Risco ID: 3
+[19-Jun-2024 13:29:17 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 3
+[19-Jun-2024 13:29:17 UTC] Pontuação total calculada: 80
+[19-Jun-2024 13:29:17 UTC] Pontuação total calculada na finalização: 80
+[19-Jun-2024 14:06:59 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[19-Jun-2024 14:06:59 UTC] PHP Stack trace:
+[19-Jun-2024 14:06:59 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 14:06:59 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[19-Jun-2024 14:06:59 UTC] PHP Stack trace:
+[19-Jun-2024 14:06:59 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 19:03:33 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 47
+)
+
+[19-Jun-2024 19:03:33 UTC] Ordem completa na finalização: Array
+(
+    [id] => 5
+    [estabelecimento_id] => 12
+    [processo_id] => 7
+    [data_inicio] => 2024-06-18
+    [data_fim] => 2024-06-19
+    [acoes_executadas] => ["47"]
+    [tecnicos] => ["14","17"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => DUOCOR - CENTRO CLINICO E DIAGNOSTICO EM CARDIOLOGIA LTDA
+    [nome_fantasia] => DUOCOR - CENTRO CLINICO E DIAGNOSTICO EM CARDIOLOGIA
+    [numero_processo] => 2024/00004
+    [endereco] => AVENIDA PARAIBA, 2055 QUADRA96L3A ENTRE RUA 7E8 - SETOR CENTRAL, GURUPI - TO, CEP: 77410060
+    [acoes_executadas_descricao] => INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Poliana Ribeiro Valadares Veras
+        )
+
+)
+
+[19-Jun-2024 19:03:33 UTC] Grupo de risco ID: 3
+[19-Jun-2024 19:03:33 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[19-Jun-2024 19:03:33 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[19-Jun-2024 19:03:33 UTC] Pontuação total calculada: 60
+[19-Jun-2024 19:03:33 UTC] Pontuação total calculada na finalização: 60
+[19-Jun-2024 19:03:47 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 47
+)
+
+[19-Jun-2024 19:03:47 UTC] Ordem completa na finalização: Array
+(
+    [id] => 6
+    [estabelecimento_id] => 13
+    [processo_id] => 8
+    [data_inicio] => 2024-06-18
+    [data_fim] => 2024-06-19
+    [acoes_executadas] => ["47"]
+    [tecnicos] => ["14","17"]
+    [pdf_path] => 
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => MARIA ZELIA FERNANDES BANDEIRA JAPIASSU LTDA
+    [nome_fantasia] => MASTER LABORATORIO CLINICO
+    [numero_processo] => 2024/00005
+    [endereco] => AVENIDA MATO GROSSO, 1095  QD 04 LT 17 E 20 - CENTRO, GURUPI - TO, CEP: 77402010
+    [acoes_executadas_descricao] => INSPEÇÃO DE RENOVAÇÃO DE ALVARÁ
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Poliana Ribeiro Valadares Veras
+        )
+
+)
+
+[19-Jun-2024 19:03:47 UTC] Grupo de risco ID: 3
+[19-Jun-2024 19:03:47 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[19-Jun-2024 19:03:47 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[19-Jun-2024 19:03:47 UTC] Pontuação total calculada: 60
+[19-Jun-2024 19:03:47 UTC] Pontuação total calculada na finalização: 60
+[19-Jun-2024 19:47:58 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[19-Jun-2024 19:47:58 UTC] PHP Stack trace:
+[19-Jun-2024 19:47:58 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[19-Jun-2024 19:47:58 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[19-Jun-2024 19:47:58 UTC] PHP Stack trace:
+[19-Jun-2024 19:47:58 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[20-Jun-2024 01:40:44 UTC] Debug: Data Início - 2024-06-19, Data Fim - 2024-06-19, Ações Executadas - ["31"], Técnicos - ["14","17"], PDF Path - ../../uploads/ordem_servico/ordem_servico_1718847626.pdf, Estabelecimento ID - 10, Processo ID - 6, Observação - 
+[20-Jun-2024 01:45:09 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 31
+)
+
+[20-Jun-2024 01:45:09 UTC] Ordem completa na finalização: Array
+(
+    [id] => 12
+    [estabelecimento_id] => 10
+    [processo_id] => 6
+    [data_inicio] => 2024-06-19
+    [data_fim] => 2024-06-19
+    [acoes_executadas] => ["31"]
+    [tecnicos] => ["14","17"]
+    [pdf_path] => ../../uploads/ordem_servico/ordem_servico_1718847626.pdf
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => DROGA.SUA LTDA
+    [nome_fantasia] => DROGA.SUA
+    [numero_processo] => 2024/00003
+    [endereco] => AVENIDA GOIÁS, 3401 SALA 10 E 11 LOTE CHACARA 96 - ZONA URBANA, GURUPI - TO, CEP: 77410010
+    [acoes_executadas_descricao] => LICENCIAMENTO DOS ESTABELECIMENTO SUJEITOS A VIGILÂNCIA SANITÁRIA
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Poliana Ribeiro Valadares Veras
+        )
+
+)
+
+[20-Jun-2024 01:45:09 UTC] Grupo de risco ID: 3
+[20-Jun-2024 01:45:09 UTC] Grupo de risco ID: 2
+[20-Jun-2024 01:45:09 UTC] Processando Ação ID: 31, Grupo de Risco ID: 3
+[20-Jun-2024 01:45:09 UTC] Nenhuma pontuação encontrada para Ação ID: 31, Grupo de Risco ID: 3
+[20-Jun-2024 01:45:09 UTC] Processando Ação ID: 31, Grupo de Risco ID: 2
+[20-Jun-2024 01:45:09 UTC] Nenhuma pontuação encontrada para Ação ID: 31, Grupo de Risco ID: 2
+[20-Jun-2024 01:45:09 UTC] Pontuação total calculada: 0
+[20-Jun-2024 01:45:09 UTC] Pontuação total calculada na finalização: 0
+[20-Jun-2024 11:14:02 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[20-Jun-2024 11:14:02 UTC] PHP Stack trace:
+[20-Jun-2024 11:14:02 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[20-Jun-2024 11:14:02 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[20-Jun-2024 11:14:02 UTC] PHP Stack trace:
+[20-Jun-2024 11:14:02 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[27-Jun-2024 13:35:16 UTC] Ações Executadas na finalização: Array
+(
+    [0] => 31
+)
+
+[27-Jun-2024 13:35:16 UTC] Ordem completa na finalização: Array
+(
+    [id] => 12
+    [estabelecimento_id] => 10
+    [processo_id] => 6
+    [data_inicio] => 2024-06-19
+    [data_fim] => 2024-06-19
+    [acoes_executadas] => ["31"]
+    [tecnicos] => ["14","17"]
+    [pdf_path] => ../../uploads/ordem_servico/ordem_servico_1718847626.pdf
+    [status] => finalizada
+    [descricao_encerramento] => Descrição do encerramento aqui
+    [pontuacao] => 0
+    [observacao] => 
+    [razao_social] => DROGA.SUA LTDA
+    [nome_fantasia] => DROGA.SUA
+    [numero_processo] => 2024/00003
+    [endereco] => AVENIDA GOIÁS, 3401 SALA 10 E 11 LOTE CHACARA 96 - ZONA URBANA, GURUPI - TO, CEP: 77410010
+    [acoes_executadas_descricao] => LICENCIAMENTO DOS ESTABELECIMENTO SUJEITOS A VIGILÂNCIA SANITÁRIA
+    [tecnicos_nomes] => Array
+        (
+            [0] => Marcelo Prevedello Pigatto 
+            [1] => Poliana Ribeiro Valadares Veras
+        )
+
+)
+
+[27-Jun-2024 13:35:16 UTC] Nenhum grupo de risco encontrado ou ações executadas não são um array.
+[27-Jun-2024 13:35:16 UTC] Pontuação total calculada: 0
+[27-Jun-2024 13:35:16 UTC] Pontuação total calculada na finalização: 0
+[27-Jun-2024 14:27:38 UTC] Nenhum grupo de risco encontrado ou ações executadas não são um array.
+[27-Jun-2024 14:27:38 UTC] Pontuação total calculada: 0
+[27-Jun-2024 14:27:51 UTC] Nenhum grupo de risco encontrado ou ações executadas não são um array.
+[27-Jun-2024 14:27:51 UTC] Pontuação total calculada: 0
+[27-Jun-2024 14:34:57 UTC] Nenhum grupo de risco encontrado ou ações executadas não são um array.
+[27-Jun-2024 14:34:57 UTC] Pontuação total calculada: 0
+[27-Jun-2024 14:35:09 UTC] Nenhum grupo de risco encontrado ou ações executadas não são um array.
+[27-Jun-2024 14:35:09 UTC] Pontuação total calculada: 0
+[27-Jun-2024 14:56:56 UTC] Grupo de risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Grupo de risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 8, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 9, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 10, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 10, Grupo de Risco ID: 3, Pontuação: 0
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 11, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 11, Grupo de Risco ID: 3, Pontuação: 45
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 12, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 12, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 13, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 13, Grupo de Risco ID: 3, Pontuação: 45
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 14, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 14, Grupo de Risco ID: 3, Pontuação: 70
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 15, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 15, Grupo de Risco ID: 3, Pontuação: 70
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 16, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 16, Grupo de Risco ID: 3, Pontuação: 90
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 17, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 17, Grupo de Risco ID: 3, Pontuação: 70
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 18, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 18, Grupo de Risco ID: 3, Pontuação: 70
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 19, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 19, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 20, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 20, Grupo de Risco ID: 3, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 21, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 21, Grupo de Risco ID: 3, Pontuação: 90
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 22, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 22, Grupo de Risco ID: 3, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 23, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 23, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 24, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 24, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 25, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 25, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 26, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 26, Grupo de Risco ID: 3, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 27, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 27, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 28, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 28, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 29, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 29, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 30, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 30, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 31, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 31, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 32, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 32, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 33, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 33, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 34, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 34, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 35, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 35, Grupo de Risco ID: 3, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 36, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 36, Grupo de Risco ID: 3, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 37, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 37, Grupo de Risco ID: 3, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 38, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 38, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 39, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 39, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 40, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 40, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 41, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 41, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 42, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 42, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 43, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 43, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 44, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 44, Grupo de Risco ID: 3, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 45, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 45, Grupo de Risco ID: 3, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 46, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 46, Grupo de Risco ID: 3, Pontuação: 55
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 48, Grupo de Risco ID: 3
+[27-Jun-2024 14:56:56 UTC] Ação ID: 48, Grupo de Risco ID: 3, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 8, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 9, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 10, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 10, Grupo de Risco ID: 2, Pontuação: 0
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 11, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 11, Grupo de Risco ID: 2, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 12, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 12, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 13, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 13, Grupo de Risco ID: 2, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 14, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 14, Grupo de Risco ID: 2, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 15, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 15, Grupo de Risco ID: 2, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 16, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 16, Grupo de Risco ID: 2, Pontuação: 80
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 17, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 17, Grupo de Risco ID: 2, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 18, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 18, Grupo de Risco ID: 2, Pontuação: 60
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 19, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 19, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 20, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 20, Grupo de Risco ID: 2, Pontuação: 45
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 21, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 21, Grupo de Risco ID: 2, Pontuação: 85
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 22, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 22, Grupo de Risco ID: 2, Pontuação: 30
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 23, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 23, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 24, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 24, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 25, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 25, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 26, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 26, Grupo de Risco ID: 2, Pontuação: 35
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 27, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 27, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 28, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 28, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 29, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 29, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 30, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 30, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 31, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 31, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 32, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 32, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 33, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 33, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 34, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 34, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 35, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 35, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 36, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 36, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 37, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 37, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 38, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 38, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 39, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 39, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 40, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 40, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 41, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 41, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 42, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 42, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 43, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Nenhuma pontuação encontrada para Ação ID: 43, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 44, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 44, Grupo de Risco ID: 2, Pontuação: 30
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 45, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 45, Grupo de Risco ID: 2, Pontuação: 40
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 46, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 46, Grupo de Risco ID: 2, Pontuação: 45
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 47, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 47, Grupo de Risco ID: 2, Pontuação: 50
+[27-Jun-2024 14:56:56 UTC] Processando Ação ID: 48, Grupo de Risco ID: 2
+[27-Jun-2024 14:56:56 UTC] Ação ID: 48, Grupo de Risco ID: 2, Pontuação: 30
+[27-Jun-2024 14:56:56 UTC] Pontuação total calculada: 2915
+[27-Jun-2024 22:24:14 UTC] Grupo de risco ID: 3
+[27-Jun-2024 22:24:14 UTC] Processando Ação ID: 47, Grupo de Risco ID: 3
+[27-Jun-2024 22:24:14 UTC] Ação ID: 47, Grupo de Risco ID: 3, Pontuação: 60
+[27-Jun-2024 22:24:14 UTC] Pontuação total calculada: 60
+[28-Jun-2024 16:35:11 UTC] Grupo de risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Grupo de risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 8, Grupo de Risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 9, Grupo de Risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 3
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 8, Grupo de Risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Nenhuma pontuação encontrada para Ação ID: 8, Grupo de Risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Processando Ação ID: 9, Grupo de Risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Nenhuma pontuação encontrada para Ação ID: 9, Grupo de Risco ID: 2
+[28-Jun-2024 16:35:11 UTC] Pontuação total calculada: 100
+[09-Sep-2024 17:23:40 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[09-Sep-2024 17:23:40 UTC] PHP Stack trace:
+[09-Sep-2024 17:23:40 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[09-Sep-2024 17:23:40 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[09-Sep-2024 17:23:40 UTC] PHP Stack trace:
+[09-Sep-2024 17:23:40 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[13-Sep-2024 14:43:16 UTC] Grupo de risco ID: 3
+[13-Sep-2024 14:43:16 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[13-Sep-2024 14:43:16 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[13-Sep-2024 14:43:16 UTC] Pontuação total calculada: 55
+[07-Oct-2024 14:06:40 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[07-Oct-2024 14:06:40 UTC] PHP Stack trace:
+[07-Oct-2024 14:06:40 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[07-Oct-2024 14:06:40 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[07-Oct-2024 14:06:40 UTC] PHP Stack trace:
+[07-Oct-2024 14:06:40 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[07-Oct-2024 14:08:07 UTC] Grupo de risco ID: 3
+[07-Oct-2024 14:08:07 UTC] Grupo de risco ID: 2
+[07-Oct-2024 14:08:07 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[07-Oct-2024 14:08:07 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[07-Oct-2024 14:08:07 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[07-Oct-2024 14:08:07 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[07-Oct-2024 14:08:07 UTC] Pontuação total calculada: 100
+[21-Oct-2024 13:19:11 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[21-Oct-2024 13:19:11 UTC] PHP Stack trace:
+[21-Oct-2024 13:19:11 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[21-Oct-2024 13:19:11 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[21-Oct-2024 13:19:11 UTC] PHP Stack trace:
+[21-Oct-2024 13:19:11 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[22-Oct-2024 12:16:49 UTC] Grupo de risco ID: 2
+[22-Oct-2024 12:16:49 UTC] Processando Ação ID: 45, Grupo de Risco ID: 2
+[22-Oct-2024 12:16:49 UTC] Ação ID: 45, Grupo de Risco ID: 2, Pontuação: 40
+[22-Oct-2024 12:16:49 UTC] Pontuação total calculada: 40
+[22-Oct-2024 12:17:06 UTC] PHP Warning:  Undefined array key "estabelecimento_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 23
+[22-Oct-2024 12:17:06 UTC] PHP Stack trace:
+[22-Oct-2024 12:17:06 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[22-Oct-2024 12:17:06 UTC] PHP Warning:  Undefined array key "processo_id" in /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php on line 24
+[22-Oct-2024 12:17:06 UTC] PHP Stack trace:
+[22-Oct-2024 12:17:06 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/OrdemServico/nova_ordem_servico.php:0
+[22-Oct-2024 12:39:21 UTC] Grupo de risco ID: 1
+[22-Oct-2024 12:39:21 UTC] Grupo de risco ID: 2
+[22-Oct-2024 12:39:21 UTC] Grupo de risco ID: 3
+[22-Oct-2024 12:39:21 UTC] Processando Ação ID: 7, Grupo de Risco ID: 1
+[22-Oct-2024 12:39:21 UTC] Ação ID: 7, Grupo de Risco ID: 1, Pontuação: 0
+[22-Oct-2024 12:39:21 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[22-Oct-2024 12:39:21 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[22-Oct-2024 12:39:21 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[22-Oct-2024 12:39:21 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[22-Oct-2024 12:39:21 UTC] Pontuação total calculada: 100
+[08-Dec-2024 18:52:53 UTC] Grupo de risco ID: 2
+[08-Dec-2024 18:52:53 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[08-Dec-2024 18:52:53 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[08-Dec-2024 18:52:53 UTC] Pontuação total calculada: 45
+[09-Dec-2024 14:33:41 UTC] Grupo de risco ID: 3
+[09-Dec-2024 14:33:41 UTC] Grupo de risco ID: 2
+[09-Dec-2024 14:33:41 UTC] Processando Ação ID: 7, Grupo de Risco ID: 3
+[09-Dec-2024 14:33:41 UTC] Ação ID: 7, Grupo de Risco ID: 3, Pontuação: 55
+[09-Dec-2024 14:33:41 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[09-Dec-2024 14:33:41 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[09-Dec-2024 14:33:41 UTC] Pontuação total calculada: 100
+[09-Dec-2024 14:39:10 UTC] Grupo de risco ID: 2
+[09-Dec-2024 14:39:10 UTC] Processando Ação ID: 7, Grupo de Risco ID: 2
+[09-Dec-2024 14:39:10 UTC] Ação ID: 7, Grupo de Risco ID: 2, Pontuação: 45
+[09-Dec-2024 14:39:10 UTC] Pontuação total calculada: 45

@@ -1,0 +1,21 @@
+URL: https://api.mapbox.com/geocoding/v5/mapbox.places/AVENIDA+GOIAS%2C+GURUPI%2C+TO%2C+CEP%3A+77410010.json?access_token=pk.eyJ1IjoiZXJpY2thZnJhbTA4IiwiYSI6ImNseWV1eTNraTAxN2QybW9sczk2b2k3cWEifQ.uM_PpIBuUcuDOaS8uFBFkA
+HTTP Code: 403
+Header: HTTP/1.1 403 Forbidden
+Content-Type: application/json; charset=utf-8
+Content-Length: 23
+Connection: keep-alive
+Date: Wed, 10 Jul 2024 00:30:33 GMT
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: x-rate-limit-interval,x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+Cache-Control: max-age=432000,stale-while-revalidate=600,stale-if-error=86400
+ETag: W/"17-bqIm6pxC4cx+ZoszvXxsClwgWw8"
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 f2fbd967de7eb86437b4ef50c9e9e664.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: GRU3-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: m4oi32JgJcnGrT6sfcBLE2n8Na72ZHdnz88oAUVvpYwUDNJ9ndMwHQ==
+Age: 138
+Response: {"message":"Forbidden"}
+Falha ao obter as coordenadas para o endereço: AVENIDA GOIAS, GURUPI, TO, CEP: 77410010

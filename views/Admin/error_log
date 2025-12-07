@@ -1,0 +1,4 @@
+[20-Jun-2024 17:07:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vigilanc/public_html/visamunicipal/views/header.php:126) in /home/vigilanc/public_html/visamunicipal/views/Admin/editar_usuario.php on line 7
+[20-Jun-2024 17:07:52 UTC] PHP Stack trace:
+[20-Jun-2024 17:07:52 UTC] PHP   1. {main}() /home/vigilanc/public_html/visamunicipal/views/Admin/editar_usuario.php:0
+[20-Jun-2024 17:07:52 UTC] PHP   2. header($header = 'Location: ../login.php') /home/vigilanc/public_html/visamunicipal/views/Admin/editar_usuario.php:7
